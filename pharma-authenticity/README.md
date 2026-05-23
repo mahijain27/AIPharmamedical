@@ -1,10 +1,10 @@
-# 💊 Pharmaceutical Authenticity & Supply Chain Security System
+# Pharmaceutical Authenticity & Supply Chain Security System
 
 > AI-powered detection of counterfeit medicines and anomalies in drug distribution using supervised learning, anomaly detection, and deep learning.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Counterfeit medicines are a global health crisis — the WHO estimates **1 in 10 medical products** in low- and middle-income countries is substandard or falsified. This project builds a machine learning pipeline to:
 
@@ -14,7 +14,7 @@ Counterfeit medicines are a global health crisis — the WHO estimates **1 in 10
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 | Model | Type | Task |
 |---|---|---|
@@ -24,7 +24,7 @@ Counterfeit medicines are a global health crisis — the WHO estimates **1 in 10
 
 ---
 
-## 📁 Project Structure
+##Project Structure
 
 ```
 pharma-authenticity/
@@ -55,7 +55,7 @@ pharma-authenticity/
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Run Full Pipeline
 ```bash
@@ -111,7 +111,7 @@ python evaluation/cross_validation.py
 
 ---
 
-## 🔬 Feature Engineering
+##Feature Engineering
 
 The preprocessing pipeline creates engineered features from raw supply chain data:
 
@@ -128,7 +128,7 @@ The preprocessing pipeline creates engineered features from raw supply chain dat
 
 ---
 
-## 📊 Model Details
+## Model Details
 
 ### Random Forest Classifier
 - **200 estimators**, max depth 12
@@ -157,7 +157,7 @@ Input (64×64×3)
 
 ---
 
-## 📈 Output Files
+##  Output Files
 
 After running the pipeline, the `evaluation/` folder contains:
 
@@ -171,7 +171,7 @@ After running the pipeline, the `evaluation/` folder contains:
 
 ---
 
-## 🔮 Potential Improvements
+## Potential Improvements
 
 - **Real Datasets**: Replace synthetic data with actual pharmaceutical supply chain datasets (e.g., WHO, FDA databases)
 - **SMOTE**: Apply oversampling for better handling of class imbalance
@@ -182,7 +182,7 @@ After running the pipeline, the `evaluation/` folder contains:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3.8+**
 - **scikit-learn** — Random Forest, Isolation Forest, cross-validation
@@ -193,12 +193,12 @@ After running the pipeline, the `evaluation/` folder contains:
 
 ---
 
-## 📄 License
+## License
 
 MIT License — free to use, modify, and distribute.
 
 ---
 
-## 👤 Author
+##Author
 
 Built as part of an AI/ML research project on pharmaceutical supply chain integrity.
